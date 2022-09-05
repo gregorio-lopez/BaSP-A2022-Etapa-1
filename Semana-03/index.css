@@ -6,6 +6,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 20;
 }
 body {
     font-family: Roboto;
@@ -116,5 +117,60 @@ footer{
     top: 191px;
     left: 1019px;
     position: absolute;
+    z-index: 10;
 }
-
+#features-title{
+    width: 127px;
+    height: 36px;
+    top: 734px;
+    left: 437px;
+    margin-left: 40px;
+    margin-top: 230px;
+    padding-bottom: 13px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    border-bottom: 3px solid #AACE9B;
+}
+.features-1-2{
+    width: 91.68px;
+    height: 88.91px;
+    top: 813.72px;
+    left: 437.02px;
+    border-radius: 5px;
+    margin-left: 40.02px;
+}
+.features-3-4{
+    width: 91.68px;
+    height: 88.91px;
+    top: 813.72px;
+    left: 437.02px;
+    border-radius: 5px;
+    margin-left: 40.02px;
+    margin-top: 66.68px;
+}
+#why-title{
+    width: 304px;
+    height: 38px;
+    top: 1174px;
+    left: 421px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    margin-left: 24px;
+    margin-top: 115.79px;
+    border-bottom: 3px solid #AACE9B;
+    padding-bottom: 13.5px;
+}
+#network-img{
+    width: 331px;
+    height: 241px;
+    top: 1270px;
+    left: 421px;
+    margin-left: 24px;
+}
+.whys{
+    top: 1276px;
+    left: 855px;
+    position: absolute;
+}

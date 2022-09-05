@@ -7,6 +7,11 @@ header {
     left: 0;
     right: 0;
 }
+body {
+    font-family: Roboto;
+    font-style: normal;
+    color: #373867;
+}
 #search-bar {
     top: 45px;
     left: 568px;
@@ -43,11 +48,73 @@ aside {
 main {
     float: right;
     width: 75%;
-}
-.trackgenix {
-    top: 191px;
-}
+    height: 3220.98px;
+    margin-top: 100px;
+    margin-left: 425px;
+    border-bottom: 3px solid #AACE9B;
+}   
 footer{
     float: right;
     width: 75%;
 }
+.welcome-container{
+   
+}
+.welcome{
+}
+#trackgenix{
+    width: 473px;
+    height: 44px;
+    left: 425px;
+    top: 191px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0.3em;
+    padding-left: 28px;
+    display: inline-block;
+}
+#subtitle{
+    width: 565px;
+    height: 26px;
+    left: 425px;
+    top: 272px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28x;
+    padding-left: 28px;
+    color: #AACE9B;
+}
+#first-p{
+    width: 617px;
+    height: 62px;
+    top: 334px;
+    left: 425px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.13px;
+    padding-left: 28px;
+
+}
+.learn{
+    width: 166px;
+    height: 72px;
+    top: 432px;
+    left: 425px;
+    border-radius: 5px;
+    color: #AACE9B;
+    border: 3px solid #AACE9B;
+    background-color: #FFFFFF;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    margin-left: 28px;
+}
+#working{
+    width: 458px;
+    height: 449px;
+    top: 191px;
+    left: 1019px;
+    position: absolute;
+}
+

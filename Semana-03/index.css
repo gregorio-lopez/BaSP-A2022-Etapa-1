@@ -8,7 +8,7 @@ header {
     right: 0;
 }
 #search-bar {
-    top: 50px;
+    top: 45px;
     left: 568px;
     border-radius: 50px;
     background-color: #D8E7EB;
@@ -31,12 +31,21 @@ header {
 }
 aside {
     position: fixed;
+    top: 126px;
     float: left;
+    height: 3374px;
     width: 25%;
+    border-right: 2px solid #BFBFBF;
+}
+.side-elements {
+    top: 206px;
 }
 main {
     float: right;
     width: 75%;
+}
+.trackgenix {
+    top: 191px;
 }
 footer{
     float: right;

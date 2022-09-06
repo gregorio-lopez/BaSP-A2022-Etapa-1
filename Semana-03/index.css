@@ -276,3 +276,16 @@ footer{
     border-bottom: 3px solid #AACE9B;
     padding-bottom: 11px;
 }
+.history-p{
+    margin-left: 28px;
+    width: 560px;
+    display: inline-block;
+    font-size: 24px;
+    line-height: 28.13px;
+}
+#build-img{
+    width: 456px;
+    height: 256px;
+    margin-left: 36px;
+    display: inline-block;
+}

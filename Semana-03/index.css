@@ -170,7 +170,109 @@ footer{
     margin-left: 24px;
 }
 .whys{
-    top: 1276px;
+    top: 1226px;
     left: 855px;
     position: absolute;
+}
+.why-items{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+#item-1{
+    margin-bottom: 42px;
+}
+#item-2{
+    margin-bottom: 43px;
+}
+#item-3{
+    margin-bottom: 42px;
+}
+.info-title{
+    width: 372px;
+    height: 38px;
+    top: 1653px;
+    left: 425px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.5px;
+    margin-top: 142px;
+    border-bottom: 3px solid #AACE9B;
+    padding-bottom: 12px;
+    margin-left: 28px;
+}
+.placeholder-box{
+    width: 659px;
+    height: 49px;
+    border-radius: 4px;
+    color: #C4C4C4;
+    border: 2px solid #AACE9B;
+    display: block;
+    margin-left: 28px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    padding: 10px 12px 10px 12px;
+}
+::placeholder{
+    color: #C4C4C4;
+}
+#name-placeholder{
+    margin-top: 38.5px;
+    margin-left: 28px;
+    margin-bottom: 30.5px;
+}
+#email-placeholder{
+    margin-bottom: 30px;
+}
+#category-placeholder{
+    margin-bottom: 30px;
+    width: 690px;
+    height: 62px;
+    padding: 10px 12px 10px 12px;
+}
+#textarea-box{
+    width: 659px;
+    height: 203px;
+    border-radius: 4px;
+    color: #C4C4C4;
+    border: 2px solid #AACE9B;
+    margin-left: 28px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    padding: 10px 12px 10px 12px;
+    margin-bottom: 30px;
+    display: block;
+}
+.info-button{
+    width: 135px;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+}
+#cancel-button{
+    margin-left: 423px;
+    color: #AACE9B;
+    background-color: #FFFFFF;
+    border: 3px solid #AACE9B;
+    margin-right: 20px;
+}
+#send-button{
+    background-color: #AACE9B;
+    color: #FFFFFF;
+    border: 0px;
+}
+#history-title{
+    width: 160px;
+    height: 38px;
+    margin-left: 28px;
+    margin-top: 128px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.5px;
+    border-bottom: 3px solid #AACE9B;
+    padding-bottom: 11px;
 }

@@ -24,9 +24,10 @@ body {
     height: 36px;
 }
 #burger {
-    position: top 0px;
-    margin: 0px;
-    padding: 0px;
+    width: 45px;
+    height: 44.61px;
+    margin-left: 46px;
+    margin-top: 41px;
 }
 #magnifying-glass {
     top: 54px;
@@ -43,8 +44,75 @@ aside {
     width: 25%;
     border-right: 2px solid #BFBFBF;
 }
-.side-elements {
-    top: 206px;
+.titles-h2{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    margin-left: 55px;
+}
+#menu-title{
+    width: 100px;
+    margin-top: 80px;
+    border-bottom: 3px solid #AACE9B;
+    padding-bottom: 32.5px;
+}
+.navs{
+    width: 172px;
+    height: 45px;
+    margin-left: 55px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #373867;
+    text-decoration: none;
+    height: 45px;
+}
+#home-a{
+    margin-top: 66.5px;
+    margin-bottom: 36px;
+    padding-bottom: 36px;
+    border-bottom: 1px solid #CDCCCC;
+}
+.navlink{
+    margin-top: 36px;
+    margin-bottom: 36px;
+    padding-bottom: 36px;
+    border-bottom: 1px solid #CDCCCC;
+}
+.navlink{
+    margin-top: 36px;
+    margin-bottom: 36px;
+    padding-bottom: 36px;
+    border-bottom: 1px solid #CDCCCC;
+}
+#contact{
+    width: 100px;
+    margin-top: 36px;
+    padding-bottom: 32px;
+    border-bottom: 3px solid #AACE9B;
+}
+.contact-opt{
+    margin-left: 55px;
+}
+#email{
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 25px;
+    color: #373867;
+}
+#phone{
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 25px;
+}
+.adress{
+    margin-left: 43px;
+}
+#road{
+    margin-left: 2px;
+    width: 264px;
+    font-size: 25px;
+    font-weight: 400;
+    display: inline-block;
 }
 main {
     float: right;
@@ -278,6 +346,7 @@ footer{
 }
 .history-p{
     margin-left: 28px;
+    margin-top: 0px;
     width: 560px;
     display: inline-block;
     font-size: 24px;
@@ -286,6 +355,22 @@ footer{
 #build-img{
     width: 456px;
     height: 256px;
-    margin-left: 36px;
-    display: inline-block;
+    top: 2555px;
+    left: 1021px;
+    position: absolute;
+}
+.table-titles{
+    font-size: 28px;   
+}
+table{
+    margin-left: 164px;
+    margin-top: 181px;
+}
+#products{
+    margin-left: 120px;
+}
+
+
+.navlink{
+
 }

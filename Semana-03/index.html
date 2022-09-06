@@ -18,19 +18,22 @@
         <div class="aside-main-container">
         <aside>
             <div class="side-elements">
-            <h2>Menu</h2>
-            <nav>
-                <a href="#">Home</a>
-                <a href="#">SignUp</a>
-                <a href="#">Login</a>
-            </nav>
-            <h2>Contact</h2>
-            <div>
-                <img src="../Semana-01/assets/icons/email.png" alt="email">
-                <a href="mailto:trackgenix@gmail.com">trackgenix@gmail.com</a>
+                <h2 id="menu-title" class="titles-h2">Menu</h2>
+                <nav>
+                    <div id="home-a"><a class="navs" href="#">Home</a></div>
+                    <div class="navlink"><a class="navs" href="#">SignUp</a></div>
+                    <div class="navlink"><a class="navs" href="#">Login</a></div>
+                </nav>
+                <h2 id="contact" class="titles-h2">Contact</h2>
+                <div class="contact-opt">
+                    <img src="../Semana-01/assets/icons/email.png" alt="email">
+                    <a id="email" href="mailto:trackgenix@gmail.com">trackgenix@gmail.com</a>
             </div>
-            <div><img src="../Semana-01/assets/icons/phone.png" alt="phone"> (+54) 4545-9999</div>
-            <div><img src="assets/icons/adress.png" alt="adress">1234 Somewhere Road #8254 Nashville.</div>
+            <div class="contact-opt">
+                <img src="../Semana-01/assets/icons/phone.png" alt="phone"><span id="phone">(+54) 4545-9999</div></span>
+            <div class="adress">
+                <img src="assets/icons/adress.png" alt="adress"><div id="road">1234 Somewhere Road #8254 Nashville.</div>
+            </div>
             </div>
         </aside>
         <main>
@@ -83,11 +86,13 @@
             </section>
             <section>
                 <h2 id="history-title">Our history</h2> 
-                <p id="first-history-p" class="history-p">
-                    Since 2012, we’ve helped countless companies across the globe build applications that empower growth,
-                    leave a lasting impression, and transform their user experience.    
-                    GigaTech was created in 2012 by a trio of colleagues who met through a coding bootcamp.
+                <p class="history-p">
+                    <div class="history-p">Since 2012, we’ve helped countless companies across the globe build applications that empower growth,
+                    leave a lasting impression, and transform their user experience.
+                    </div>
+                    <div class="history-p">GigaTech was created in 2012 by a trio of colleagues who met through a coding bootcamp.
                     They continue to perfect the craft of app development and make a name for themselves.
+                    </div>
                 </p>
                 <img id="build-img" src="../Semana-01/assets/img/imgMainMidjpg.jpg" alt="building project">
                 <p hidden>
@@ -95,15 +100,15 @@
                     they explored new partnerships with major technologies to propel their growth. 
                     GigaTech currently has around 70 team members and exciting growth goals ahead of them.
                 </p>
-                <button class="button">Read More</button>
+                <button hidden class="button">Read More</button>
                 <img hidden src="../Semana-01/assets/img/thinking man.png" alt="thinking man">
             </section>
             <section>
                 <table>
                     <tr>
-                        <th>PRODUCTS </th>
-                        <th>COMPANY</th>
-                        <th>SUPPORT</th>
+                        <th id="products" class="table-titles">PRODUCTS</th>
+                        <th class="table-titles">COMPANY</th>
+                        <th class="table-titles">SUPPORT</th>
                     </tr>
                     <tr>
                         <td>Feautres</td>

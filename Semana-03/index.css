@@ -203,19 +203,20 @@ footer{
 .features-1-2{
     width: 91.68px;
     height: 88.91px;
-    top: 813.72px;
-    left: 437.02px;
     border-radius: 5px;
     margin-left: 40.02px;
 }
 .features-3-4{
     width: 91.68px;
     height: 88.91px;
-    top: 813.72px;
-    left: 437.02px;
     border-radius: 5px;
     margin-left: 40.02px;
     margin-top: 66.68px;
+}
+.features-container > span{
+   font-size: 24px;
+   font-weight: 700;
+   /* line-height: 28.13px; */
 }
 #why-title{
     width: 304px;
@@ -359,15 +360,55 @@ footer{
     left: 1021px;
     position: absolute;
 }
-.table-titles{
-    font-size: 28px;   
+#final-titles-container{
+    width: 900px;
+    height: 267px;
+    margin-left: 140px;
 }
-table{
-    margin-left: 164px;
+.final-titles{
     margin-top: 181px;
+    display: inline-block;
 }
-#products{
-    margin-left: 120px;
+.final-titles>h3{
+    font-size: 28px;
+    font-weight: 700;
+}
+.final-titles>p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.13px;
+}
+#products-section{
+    border-right: 2px solid #909090;
+    padding-right: 42px;
+}
+#company-section{
+    margin-left: 42px;
+    padding-right: 42px;
+    border-right: 2px solid #909090;
+}
+#support-section{
+    margin-left: 42px;
+}
+#icons{
+    margin-top: 56.02px;
+    margin-left: 21.45px;
+    width: 29.55px;
+    height: 29px;
+    display: inline;
+}
+#icons:first-child{
+    margin-left: 445px;
+}
+.footer-info{
+    margin-left: 253px;
+    margin-top: 40px;
+    width: 609px;
+    height: 85px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.13px;
+    text-align: center;
 }
 
 
